@@ -1,0 +1,91 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<title>PIZZA KINGDOM</title>
+		<script type="text/javascript">
+			window.addEventListener('load', () => {
+
+				var name = localStorage.getItem("name");
+			var surname = localStorage.getItem("sur");
+			var address = localStorage.getItem("address");
+			var email = localStorage.getItem("email");
+			var price = localStorage.getItem("price");
+				document.getElementById('value').innerHTML = name;
+				document.getElementById('result').innerHTML = surname;
+				document.getElementById('result1').innerHTML = address;
+				document.getElementById('result2').innerHTML = email;
+				document.getElementById('result3').innerHTML = price;
+
+})
+		</script>
+		<style>
+					#border{
+			
+			border-style:groove;
+			height:85%;
+			margin-top:5%;
+			margin-left:27%;
+			width:40%;
+			background-color:white;
+		}
+		body{
+			
+  background:url('https://wallpaperset.com/w/full/5/6/4/110790.jpg');
+   background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  
+}
+		}
+		#pack{
+			border:1px solid yellow;
+			background-color:yellow;
+			height:70px;
+			width:50%;
+			margin-top:10%;
+			
+		}
+		
+h1,h2{
+	text-align:center;
+	/*margin-left:20%*/;
+	font-size:35px;
+	font-family:Roboto;
+	color:crimson;
+}
+h1{
+	margin-right:100px;
+}
+label{
+	margin-left:90px;
+	font-size:20px;
+	font-family:Arial;
+}
+span{
+	color:grey;
+	font-size:20px;
+}
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div id="border">
+<div id="pack"> </div> <h1><i><img style="width:120px;height:120px;" src="http://clipart-library.com/new_gallery/1-15917_pizza-slice-drawing-at-getdrawings-slice-of-pizza.png" >Pizza Kingdom</h1>
+<h2><i>Order Receipt</i></h2>	
+	 
+		
+		<b>	<label>Name: </label><span id="value"></span><br><br>
+			<label>Phone: </label><span id="result"></span>	<br><br>
+			<label>Address: </label><span id="result1"></span><br><br>
+			<label>Email: </label><span id="result2"></span><br><br>
+			<label>Payment Method: </label>  <span id="result">Card</span></b>
+<br>
+			<hr/>
+<br><br><label>Total Charges: $</label><span id="result3"></span>
+<br><br><p style="text-align:center;">If your pizza is not  delivered in 45 minutes, it is on us!!</p>
+
+	
+	</body>
+</html>

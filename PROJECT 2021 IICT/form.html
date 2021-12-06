@@ -1,0 +1,413 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<title>PIZZA KINGDOM</title>
+		<link rel="stylesheet" href="form.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+
+	</head>
+	<form >
+
+	<body class="background">
+		<div id="con1">
+		<h1 class="head">Order your happy meal</h1>
+		<hr>
+		<h2 style="font-size:30px;">PERSONAL INFORMATION</h2>
+		<form name="myform"   method="post" >
+			<div class="red">
+				<label for="fname">Name </label><br>
+				<i class="fa fa-user icon" ></i>
+				 <input required style="width:75%;" id = "a" class="c" class="input-field" type = "text" name ="name" placeholder=" Name" ><br>
+				<label for="fname">Phone </label><br>
+				<i class="fa fa-phone icon"></i>
+				  <input required style="width:75%;" id = "b" class="c"type="tel" name="phone_num" placeholder="0000-0000000"><br>
+				<label for="fname">Email</label><br>
+				<i class="fa fa-envelope icon"></i> 
+				<input required style="width:75%;" type="email" id="d" class="c" name="email" placeholder="somene@mail.com"><br>
+				<div id="p"><label for="fname">City</label> <input type="text" class="c" style="width:42%;margin-left:188px"><br><br>
+				<label for="fname"> Postal Address </label>
+				<input type="text" class="c" style="width:42%;margin-left:93px"></div><br>
+				<label name="fname">Address</label><br><i class="fa fa-address-card"></i>
+       		  <input required style="width:75%;" class="c" id="ad" type="text" name = "description" placeholder="  Enter address here..."><br>
+       		  <label id="peak"><label/>
+	
+       		 <br></div>				
+<hr align="left | center | right"></form>
+<!-- <div onscroll="validateform()"> -->
+<form action="p.html" onsubmit="return validateform()" method="POST">
+<div oninput="final.value=parseInt(q.value)+parseInt(k.value)+parseInt(n.value)+parseInt(m.value)+parseInt(e.value)+parseInt(f.value)+parseInt(g.value)+parseInt(h.value)+parseInt(j.value)"> 
+       		   <h2>MENU</h2>
+       		   
+       			<nav id="con5">
+       				<ul><b>
+       					<li><a href="#menu1" id="1">Pizza</a></li>
+       					<li><a href="#salad" id="2">Salad</a></li>
+       					<!-- <li><a href="#" id="3">Sweet</a></li> -->
+       					<li><a href="#drinks" id="4">Drinks</a></li>
+       				</ul><b>
+       			</nav><br>
+       			<div id="con4">
+       				<h3 id="menu1">PIZZA </h3>
+       		    <div id="item">
+			<div id="display">	 <table>
+				 	<tr>
+				 		
+				 		<th><img style="border-radius:70%;height:140px;padding-left:10px;" src="https://buddhapizza.com/storage/products/kJQkPbUDxEA8uKasK3WLgB4goag8bC6a8ZSjIHnv.jpeg"><br><input oninput="Calculation()" type="checkbox" name="1" id="mycheck" value="pizza"><br><h5 style="font-size:20px;">Sub total <input style="background-color:black;color:white;width:70px;margin-left:30px;"  type="number" id="q" value="0"></h5></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Margarita</li>
+				 	<li style="color:grey;font-size:18px;">Italian flour, whole tomato sauce, mozzarella, tomatoes, pesto sauce, oregano
+				 	<br><br>Size: 30cm<br><br><div class="price"> Price: 75$ </div><br>
+				 	 </li><br><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="tt" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+				 <br><br>
+
+
+				  <div id="item">
+				 <table>
+				 	<tr>
+				 		<th><img style="border-radius:70%;height:140px;padding-left:10px;" src="https://buddhapizza.com/storage/products/saO8Asd08YjwAjbVhDPv53XRp9HAtlEZOBM4ZUit.jpeg"><br><input oninput="calculate()" type="checkbox" id="letcheck" name="2"><br><h5 style="font-size:20px;">Sub total <input value="0" style="background-color:black;color:white;width:70px;margin-left:30px;" type="number" id="k"></h5></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Mushroom Pizza</li>
+				 	<li style="color:grey;font-size:18px;">Italian flour, parmesan and cream sauce, mozzarella, dorblu, baked chicken, mushrooms, Bulgarian pepper, oregano
+				 	<br><br>Size: 30cm<br><br><div class="price"> Price: 75$ </div><br>
+				 	 </li><br><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="pp" type="number" min="0" max="9" step="1"  value="0"></div></li> 	
+				
+				 </table></div>
+
+<br><br>
+				   <div id="item">
+				 <table>
+				 	<tr>
+				 		<th><img style="border-radius:70%;height:140px;padding-left:10px;" src="https://buddhapizza.com/storage/products/cwVWcsBQBMnpRICIxPzCsfXyT85SlwPSi0ZoAAih.png"><br><input oninput="sort()" type="checkbox" id="checks" name="2"><br><h5 style="font-size:20px;">Sub total <input value="0" style="background-color:black;color:white;width:70px;margin-left:30px;" type="number" id="n"></h5></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Bavarian</li>
+				 	<li style="color:grey;font-size:18px;">Italian flour, whole tomato sauce, mozzarella, pepperoni, hunting sausages, bell pepper, olives, Pesto sauce, oregano
+				 	<br><br>Size: 30cm<br><br><div class="price"> Price: 75$ </div><br>
+				 	 </li><br><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="qq" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+
+
+
+<br><br>
+				   <div id="item">
+				 <table>
+				 	<tr>
+				 		<th><img style="border-radius:70%;height:140px;padding-left:10px;" src="https://buddhapizza.com/storage/products/t7EBCOvfy3fxcsgLTFaLBh0KuZLOZa5drYI9exaN.jpeg"><br><input oninput="think()" id="checkmate" type="checkbox" name="4" value="pizza">
+				 			<br><h5 style="font-size:20px;">Sub total <input style="background-color:black;color:white;width:70px;margin-left:30px;" value="0" type="number" id="m"></h5></th></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Prosciutto</li>
+				 	<li style="color:grey;font-size:18px;">Italian flour, whole tomato sauce, mozzarella, PROSCUITTO, rucolla, cherry tomatoes, sun-dried tomato, capers, oregano, parmesan
+				 	<br><br>Size: 30cm<br><br><div class="price"> Price: 75$ </div><br>
+				 	 </li><br><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="rr" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+
+<h3 id="salad">SALAD</h3>
+
+<div id="item">
+				 <table>
+				 	<tr>
+				 		<th><img style="border-radius:70%;height:140px;padding-left:10px;" src="https://pinza.com/files/cache/6936761dd6f0c7f791faf0e0007f8712_f121.png"><br><input oninput="func()" type="checkbox" id="checker" name="5" value="salad"><br><h5 style="font-size:20px;">Sub total <input style="background-color:black;color:white;width:70px;margin-left:30px;" value="0" type="number" id="e"></h5></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Chicken Avocado</li>
+				 	<li style="color:grey;font-size:18px;">Pulled Chicken,avocado,shallots,spring onion,cilantro,mixed green,cherry tomatoes
+				 	<br><br><div class="price"> Price: 45$ </div><br>
+				 	 </li><br><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="ss" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+
+<br>
+				 <div id="item">
+				 <table>
+				 	<tr>
+				 		<th><img style="border-radius:70%;height:140px;padding-left:10px;" src="https://pinza.com/files/cache/a3a759c5d64ddae88da2dc393e1bc455_f120.png"><br><input oninput="find()" id="set" type="checkbox" name="6" value="salad"><br><h5 style="font-size:20px;">Sub total <input style="background-color:black;color:white;width:70px;margin-left:30px;" value="0" type="number" id="f"></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Chicken Protein Salad</li>
+				 	<li style="color:grey;font-size:18px;">Mixed green,Aragula,PulledChicken,Roasted Peppers,Pine nuts,Mint leavesShallots
+				 	<br><br><div class="price"> Price: 45$ </div><br>
+				 	 </li><br><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="uu" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+
+<h3 id="drinks">DRINKS</h3>
+
+
+				 <div >
+				 <table id="item7">
+				 	<tr>
+				 		<th><img style="border-radius:90%;height:140px;padding-left:10px;" src="https://buddhapizza.com/storage/products/VZim4KtGgiAHX22b6B5AIzsmB8DBH9AHmN0QTpuU.jpeg"><br><input oninput="solve()" id="solution" type="checkbox" name="6" value="salad"><h5 style="font-size:20px;">Sub total <input style="background-color:black;color:white;width:70px;margssssin-left:30px;" value="0" type="number" id="g"></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Cola 0.33</li>
+				 	<li style="color:grey;font-size:18px;">
+				 	<br><div class="price"> Price: 15$ </div><br>
+				 	 </li><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" type="number" min="0" max="9" step="1" id="vv" value="0"></div></li> 	
+				
+				 </table>
+				 <br>
+				  <div >
+				 <table id="item7">
+				 	<tr>
+				 		<th><img style="border-radius:50%;height:140px;width:80px;padding-left:10px;width950px;" src="https://pinza.com/files/cache/10294d73901c55eb9c25f20957eae8be_f252.jpg"><br><input oninput="let()" id="get" type="checkbox" name="7" value="drink"><h5 style="font-size:20px;">Sub total <input style="background-color:black;color:white;width:70px;margin-left:30px;" value="0" type="number"id="h"></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Mineral Water</li>
+				 	<li style="color:grey;font-size:18px;">
+				 	<br><div class="price"> Price: 10$ </div><br>
+				 	 </li><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="ww" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+<br>
+				 <table id="item8">
+				 	<tr>
+				 		<th><img style="border-radius:30%;height:140px;padding-left:10px;" src="https://buddhapizza.com/storage/products/9AVXaFFCpEXTRGP6fqL4Sa4aeXawJTqIi3NoWy8v.jpeg"><input oninput="plan()" id="work" type="checkbox" name="8" value="drink"><h5 style="font-size:20px;">Sub total <input value="0" style="background-color:black;color:white;width:70px;margin-left:30px;" type="number" id="j"></th>
+				 		<th><ul>
+				 		<li style="font-size:24px;padding:12px;"><b>Dr. Pepper</li>
+				 	<li style="color:grey;font-size:18px;">
+				 	<br><div class="price"> Price: 10$ </div><br>
+				 	 </li><br>
+				<li><div class="quantity">
+ 				 <label style="margin-right:37px">Order</label><input style="background-color:black;color:white;width:70px;height:10px;margin-left:120px" id="yy" type="number" min="0" max="9" step="1" value="0"></div></li> 	
+				
+				 </table>
+				 <br><br>
+
+<h3>Total  <input name="final" name="final" id="final" oninput="qwerty()" style="background-color:black;color:white;width:70px;height:10px;" id="yy" type="number" min="0"  step="1" value="0"></input></h3>
+<div class="green">	<label name="fname">Additional notes</label><br><i class="fa fa-address-card"></i>
+       		  <input style="width:75%;height:90px;" class="c" type="text" name = "description" ><br>
+</div></div>
+
+
+<label id="peak"><label/>
+	<div id="buttons">
+ 
+<button class="btnpay" type="submit" value="submit" onclick="validateform()" ><i class="fa fa-credit-card" aria-hidden="true" ></i>Pay via Credit Card</button><br></form>
+
+
+
+
+       		</div>
+   </form> 
+      		  			
+	</body>	
+
+   <script type="text/javascript"> 
+    
+		function validateform(){
+			var name=document.getElementById("a").value; 
+			var phone_num=document.getElementById("b").value; 
+			localStorage.setItem('name', name);
+			localStorage.setItem('sur', JSON.stringify(phone_num));	
+		var price=document.getElementById("final").value;
+			localStorage.setItem('price', price);
+			var address=document.getElementById("ad").value;
+		 	localStorage.setItem('address', address);
+			var email=document.getElementById("d").value;
+			localStorage.setItem('email', email);
+		
+			if (name==""){  
+			  alert("Name can't be blank");  
+			  return false;
+			}
+			  else if (phone_num==""){  
+			  alert("enter phone number please");  
+			  return false;
+			}
+			else if(phone_num.length<11)
+			{  
+			  alert("phone number must be at least 11 characters long.");  
+			  return false;
+			  }
+			   else if(email==""){
+			  	alert("Email can't be empty");
+			  	return false;
+			  }
+			  else if (address==""){  
+			  alert("Address can't be blank");  
+			  return false;
+			}
+			
+				
+			
+			
+			 
+			  
+			}
+			function Calculation(){
+				var checkbox = document.getElementById("mycheck");
+ 			 var  quantity= document.getElementById("tt").value;
+ 			 var result=document.getElementById("q").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(tt.value)*75;
+ 			 	document.getElementById("q").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("q").value=0;
+ 			 }
+
+			}
+
+				function calculate(){
+				var checkbox = document.getElementById("letcheck");
+ 			 var  quantity= document.getElementById("pp").value;
+ 			 var result=document.getElementById("k").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(pp.value)*75;
+ 			 	document.getElementById("k").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("k").value=0;
+ 			 }
+			}
+
+
+				function sort(){
+				var checkbox = document.getElementById("checks");
+ 			 var  quantity= document.getElementById("qq").value;
+ 			 var result=document.getElementById("n").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(qq.value)*75;
+ 			 	document.getElementById("n").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("n").value=0;
+ 			 }
+			}
+
+				function think(){
+				var checkbox = document.getElementById("checkmate");
+ 			 var  quantity= document.getElementById("rr").value;
+ 			 var result=document.getElementById("m").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(rr.value)*75;
+ 			 	document.getElementById("m").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("m").value=0;
+ 			 }
+			}
+
+
+				function func(){
+				var checkbox = document.getElementById("checker");
+ 			 var  quantity= document.getElementById("ss").value;
+ 			 var result=document.getElementById("e").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(ss.value)*35;
+ 			 	document.getElementById("e").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("e").value=0;
+ 			 }
+			}
+
+				function find(){
+				var checkbox = document.getElementById("set");
+ 			 var  quantity= document.getElementById("uu").value;
+ 			 var result=document.getElementById("f").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(uu.value)*35;
+ 			 	document.getElementById("f").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("f").value=0;
+ 			 }
+			}
+
+
+				function solve(){
+				var checkbox = document.getElementById("solution");
+ 			 var  quantity= document.getElementById("vv").value;
+ 			 var result=document.getElementById("g").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(vv.value)*15;
+ 			 	document.getElementById("g").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("g").value=0;
+ 			 }
+			}
+				function let(){
+				var checkbox = document.getElementById("get");
+ 			 var  quantity= document.getElementById("ww").value;
+ 			 var result=document.getElementById("h").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(ww.value)*10;
+ 			 	document.getElementById("h").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("h").value=0;
+ 			 }
+			}
+				
+				function plan(){
+				var checkbox = document.getElementById("work");
+ 			 var  quantity= document.getElementById("yy").value;
+ 			 var result=document.getElementById("j").value;
+ 			 if(checkbox.checked==true )
+ 			 {
+ 			 	result=parseInt(yy.value)*15;
+ 			 	document.getElementById("j").value=result;
+ 			 }
+ 			 else{
+ 			 	document.getElementById("j").value=0;
+ 			 }
+}
+ 		
+		</script>
+
+
+</html>
+
+	
+	
+		
+						
+
+
+		
+
+				 	
+				  
+				  
+				       		 
+
+       	 	
+
+
+
+
+
+
+
+
+
+
+
+
+
